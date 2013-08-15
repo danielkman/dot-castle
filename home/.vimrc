@@ -66,7 +66,7 @@ let g:syntastic_auto_loc_list=1
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'ecomba/vim-ruby-refactoring'
-Bundle 'skalnik/vim-vroom'
+Bundle 'thoughtbot/vim-rspec'
 
 Bundle 'juvenn/mustache.vim'
 Bundle 'tpope/vim-markdown'
