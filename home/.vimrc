@@ -36,7 +36,7 @@ set guioptions-=r
 set guioptions-=L
 
 Bundle 'michaeljsmith/vim-indent-object'
-let g:indentobject_meaningful_indentation = ["haml", "sass", "python", "yaml", "markdown"]
+let g:indentobject_meaningful_indentation = ["slim", "sass", "yaml", "markdown"]
 
 Bundle 'Spaceghost/vim-matchit'
 Bundle 'kien/ctrlp.vim'
@@ -61,7 +61,6 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'ecomba/vim-ruby-refactoring'
 
-Bundle 'tpope/vim-haml'
 Bundle 'juvenn/mustache.vim'
 Bundle 'tpope/vim-markdown'
 
@@ -94,7 +93,7 @@ syntax on
 set background=dark
 colorscheme solarized
 
-set guifont=Menlo\ Regular:h15
+set guifont=Menlo\ Regular:h30
 let macvim_hig_shift_movement = 1
 
 " Set 5 lines to the cursor - when moving vertically
