@@ -33,6 +33,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 map <C-n> <plug>NERDTreeTabsToggle<CR>
+let g:NERDTreeHijackNetrw=0
 
 " Disable the scrollbars (NERDTree)
 set guioptions-=r
