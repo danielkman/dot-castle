@@ -63,6 +63,7 @@ Bundle 'ecomba/vim-ruby-refactoring'
 
 Bundle 'juvenn/mustache.vim'
 Bundle 'tpope/vim-markdown'
+Bundle 'slim-template/vim-slim'
 
 Bundle 'cakebaker/scss-syntax.vim'
 au BufRead,BufNewFile *.scss set filetype=scss
