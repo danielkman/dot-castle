@@ -30,7 +30,11 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 
 Bundle 'scrooloose/nerdtree'
-nmap <leader>n :NERDTreeToggle<CR>
+Bundle 'jistr/vim-nerdtree-tabs'
+
+map <C-n> <plug>NERDTreeTabsToggle<CR>
+autocmd vimenter * NERDTree
+
 " Disable the scrollbars (NERDTree)
 set guioptions-=r
 set guioptions-=L
