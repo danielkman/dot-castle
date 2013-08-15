@@ -16,8 +16,6 @@ endif
 
 set directory=~/.vim/tmp
 
-mkdir -p ~/.vim/tmp
-
 " VUNDLE {{{
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
