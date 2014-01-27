@@ -29,7 +29,6 @@ nnoremap <leader>a :Ack!<space>
 Bundle 'tsaleh/vim-align'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
@@ -48,7 +47,7 @@ Bundle 'Spaceghost/vim-matchit'
 Bundle 'kien/ctrlp.vim'
 let g:ctrlp_extensions = ['tag']
 
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline'
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_cache_enabled = 1
 
@@ -113,9 +112,6 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 " Yank from current cursor position to end of line
 map Y y$
 set clipboard=unnamed
-
-" Remove annoying balloons on hover
-set noballooneval
 
 " clear highlight after search
 noremap <silent><Leader>/ :nohls<CR>
