@@ -86,7 +86,6 @@ au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 Bundle 'ervandew/supertab'
 
 Bundle 'sjl/badwolf'
-Bundle 'altercation/vim-colors-solarized'
 Bundle 'tomasr/molokai'
 Bundle 'zaiste/Atom'
 Bundle 'w0ng/vim-hybrid'
